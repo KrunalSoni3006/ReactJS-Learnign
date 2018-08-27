@@ -49,7 +49,6 @@ class App extends Component {
       cursor: "pointer"
     }
     let persons = null;
-    if (this.state.showPersons) {
       persons = (
         <div>
           {this.state.persons.map((person, index) => {
